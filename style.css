@@ -16,16 +16,16 @@
 .footer{
     background-color: rgb(147, 197, 243);
     padding: 20px;
-    margin: 10px;
+    
 }
 .flex-container-for-description{
     display: flex;
     width: 100%;    
 }
-description{
-    text-align:right; 
-    width:50%;
+.divForSubject{
+    width:20%;
 }
+
 subject{
     text-align:center; 
     width:20%; 
@@ -41,6 +41,9 @@ subject{
         flex-direction: column;
         background-color: rgb(147, 197, 243);
     }
+    .img{
+    width: 100%;
+    }
     
     .flex-container-for-description{
         display: flex;
@@ -52,4 +55,10 @@ subject{
         text-align:left; 
         width:50%;
     }
+    .block-img {
+        width: 100%;
+    }
+    .divForSubject{
+    width:100%;
+    } 
 }
